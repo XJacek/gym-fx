@@ -1768,8 +1768,8 @@ class FxEnv(gym.GoalEnv):
          
         #rew2=-100
         #rew = np.log(self.equity/self.balance)*100
-        rew1 = np.log(self.equity/self.prev_equity)*1
-        rew2 =  np.log(self.balance/self.prev_balance)*100
+        rew1 = np.log(self.equity/self.prev_equity)*1000
+        rew2 =  np.log(self.balance/self.prev_balance)*1000
         #self.prev_exposure=self.exposure
         #if rew!=0: rew2=0
 
