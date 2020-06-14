@@ -1513,7 +1513,7 @@ class FxEnv(gym.GoalEnv):
 
     
             else:
-                if self.done1>=5 :                 
+                if self.done1>=1 :                 
                     done=True
                     self.done1=0
                  
@@ -1528,7 +1528,7 @@ class FxEnv(gym.GoalEnv):
                     
                     
             else:
-                if self.done1>=5 :                 
+                if self.done1>=1 :                 
                     done=True
                     self.done1=0
                   
