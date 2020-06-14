@@ -1763,7 +1763,7 @@ class FxEnv(gym.GoalEnv):
         rew=0
         rew1=0
         rew2=0
-        rew3=0
+        rew3=-0.01
 
          
         #rew2=-100
