@@ -19,7 +19,7 @@ import pandas as pd
 url = 'https://raw.githubusercontent.com/XJacek/gym-fx/master/data/EURUSD_M5.csv'
 train_df = pd.read_csv(url, sep = ',' )
 ```
-Data .csv are generate by https://tickstory.com/
+Data .csv is prepared by by https://tickstory.com/
 ## Environment usage
 ```python
 import gym
