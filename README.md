@@ -27,7 +27,7 @@ import gym_fx
 env = gym.make('fx-v0',df= train_df, lookback=60,
                                               initial_balance=100000,
                                               ticks=False,  mt4 = False,
-                                              test=False, act_space='discrete', obs_space ='box',
+                                              act_space='discrete', obs_space ='box',
                                               log = True, diff=True)
                                               
 ```
