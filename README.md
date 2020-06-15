@@ -20,7 +20,7 @@ url = 'https://raw.githubusercontent.com/XJacek/gym-fx/master/data/EURUSD_M5.csv
 train_df = pd.read_csv(url, sep = ',' )
 ```
 
-## Enviroment usage
+## Environment usage
 ```python
 import gym
 import gym_fx
