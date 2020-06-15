@@ -17,7 +17,7 @@ import gym_fx
 ```python
 import pandas as pd
 url = 'https://raw.githubusercontent.com/XJacek/gym-fx/master/data/EURUSD_M5.csv'
-df = pd.read_csv(url, sep = ',' )
+train_df = pd.read_csv(url, sep = ',' )
 ```
 
 ## Enviroment usage
